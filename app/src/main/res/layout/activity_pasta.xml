@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PastaActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header_menu">
+        <ImageView
+            android:id="@+id/btn_kembali"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/header_menu"
+            android:fontFamily="verdana"
+            android:text="Whole Wheat Pasta"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:text="Low Calorie Whole Wheat Pasta Recipe"
+            android:textColor="@color/hijau"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Ingredients : "
+            android:textSize="15dp"
+            android:textColor="@color/hijau"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:text="60 grams of whole wheat pasta."
+            android:textSize="14dp"
+            android:textColor="@color/hijau"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:text="2 raw asparagus sticks."
+            android:textSize="14dp"
+            android:textColor="@color/hijau"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:text="1/4 teaspoon black pepper."
+            android:textSize="14dp"
+            android:textColor="@color/hijau"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:text="2 tablespoons of olive oil."
+            android:textSize="14dp"
+            android:textColor="@color/hijau"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:text="2 grains of garlic."
+            android:textSize="14dp"
+            android:textColor="@color/hijau" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:text="Leeks to taste."
+            android:textSize="14dp"
+            android:textColor="@color/hijau"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:text="25 grams of chopped chicken breast."
+            android:textSize="14dp"
+            android:textColor="@color/hijau"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:text="1 teaspoon salt."
+            android:textSize="14dp"
+            android:textColor="@color/hijau"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="How to make low calorie whole wheat pasta "
+            android:textSize="15dp"
+            android:textColor="@color/hijau"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:text="1. First puree the garlic."
+            android:textSize="13dp"
+            android:textColor="@color/hijau" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="1dp"
+            android:text="2. Then cut the chives to the thickness according to taste. Also cut the asparagus into lengths. Then you can soak it in a bowl of water. After soaking, rinse with water. Then cut the white and light green part."
+            android:textSize="13dp"
+            android:textColor="@color/hijau" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="1dp"
+            android:text="3. Add cloves, star anise, vanilla extract, and cardamom in the same glass. Let the solution sit for about 10 minutes so that all the ingredients are well mixed."
+            android:textSize="13dp"
+            android:textColor="@color/hijau"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="1dp"
+            android:text="4. After that, take a frying pan to cook and heat the olive oil."
+            android:textSize="13dp"
+            android:textColor="@color/hijau"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="1dp"
+            android:text="5. then sauté the mashed garlic, chives, asparagus, chopped chicken, salt and pepper and cook over low heat until done."
+            android:textSize="13dp"
+            android:textColor="@color/hijau" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="1dp"
+            android:text="6. The next step, boiled pasta. You can cook the pasta according to the instructions on the package until it's done. Once cooked, remove and drain first."
+            android:textSize="13dp"
+            android:textColor="@color/hijau" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="1dp"
+            android:text="7. Then enter the pasta into the pan containing the stir-fry ingredients and spices. Stir until evenly distributed and cook briefly."
+            android:textSize="13dp"
+            android:textColor="@color/hijau" />
+    </LinearLayout>
+
+
+</RelativeLayout>
